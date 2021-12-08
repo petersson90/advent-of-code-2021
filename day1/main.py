@@ -1,11 +1,5 @@
 # main.py
 
-total_rows = 0
-increases = 0
-decreases = 0
-same = 0
-prev_value = None
-
 def total_increases(number_list, count=1):
     prev_value = None
     increases = 0
@@ -26,8 +20,6 @@ def total_increases(number_list, count=1):
         prev_value = curr_value
     
     return increases
-
-
 
 
 if __name__ == "__main__":
