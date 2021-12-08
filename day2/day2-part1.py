@@ -1,4 +1,4 @@
-# main.py
+# day2-part1.py
 
 class Submarine():
     def __init__(self):
@@ -25,6 +25,7 @@ if __name__ == "__main__":
             move = row_data[0]
             distance = int(row_data[1])
 
+            # print(row)
             submarine.movement(move, distance)
 
     print(submarine.horizontal, '*', submarine.depth, '=', submarine.horizontal * submarine.depth)
